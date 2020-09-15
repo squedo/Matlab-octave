@@ -4,7 +4,7 @@ function [audio,whatEar,Fs,names,path,extensionOfAudio] = loadingAudio()
 
 %%% Inputs
 % NOTE: string inputs must be entered using quotation marks as follows:
-% 'C:\Users\Sergio\Desktop\TestIDNEO'
+% 'C:\Users\Sergio\Desktop\Test'
 % 'wav'
 path = input('What is the name of the path of the folder with the audios?  ');
 extensionOfAudio = input('What is the extension of the audios? (i.e. wav)  ');
